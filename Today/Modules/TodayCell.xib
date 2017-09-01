@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13168.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13147.4"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TodayCell" rowHeight="173" id="KGk-i7-Jjw" customClass="TodayCell" customModule="Today" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="173"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="172.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wzc-sq-gDp">
+                        <rect key="frame" x="20" y="16" width="272" height="25.5"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="21"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalCompressionResistancePriority="749" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hg9-Y5-52I">
+                        <rect key="frame" x="20" y="49.5" width="272" height="109.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Hg9-Y5-52I" firstAttribute="top" secondItem="wzc-sq-gDp" secondAttribute="bottom" constant="8" id="Dva-de-Dkg"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="wzc-sq-gDp" secondAttribute="trailing" constant="20" id="ECa-TQ-o6W"/>
+                    <constraint firstItem="wzc-sq-gDp" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="16" id="TQQ-Am-NVk"/>
+                    <constraint firstItem="Hg9-Y5-52I" firstAttribute="trailing" secondItem="wzc-sq-gDp" secondAttribute="trailing" id="Uai-R4-MbE"/>
+                    <constraint firstAttribute="bottom" secondItem="Hg9-Y5-52I" secondAttribute="bottom" constant="13.5" id="iJ2-jc-703"/>
+                    <constraint firstItem="wzc-sq-gDp" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" id="ieQ-sJ-p0r"/>
+                    <constraint firstItem="Hg9-Y5-52I" firstAttribute="leading" secondItem="wzc-sq-gDp" secondAttribute="leading" id="wCO-ab-gXB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="descriptionLabel" destination="Hg9-Y5-52I" id="Mdu-w6-VgA"/>
+                <outlet property="titleLabel" destination="wzc-sq-gDp" id="MC2-mP-heT"/>
+            </connections>
+            <point key="canvasLocation" x="125" y="-102.5"/>
+        </tableViewCell>
+    </objects>
+</document>

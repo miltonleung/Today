@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.17429"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "fetchNewsContent(news:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.175166"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
+            landmarkName = "fetchNewsContent(news:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Swift.Array&lt;Swift.String&gt;) -&gt; () in closure #1 ((Result.Result&lt;Swift.Array&lt;Today.News&gt;, __ObjC.NSError&gt;) -&gt; ()) -&gt; () in Today.ModelDataManager.fetchNewsContent(news: Swift.Array&lt;Today.News&gt;) -&gt; BrightFutures.Future&lt;Swift.Array&lt;Today.News&gt;, __ObjC.NSError&gt;"
+                  moduleName = "Today"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miltonleung/Developer/Today/Today/Services/ModelDataManager.swift"
+                  timestampString = "523930080.264595"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "3829">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (Today.News) -&gt; Swift.Optional&lt;BrightFutures.Future&lt;Swift.String, __ObjC.NSError&gt;&gt; in closure #2 (Swift.Array&lt;Swift.String&gt;) -&gt; () in closure #1 ((Result.Result&lt;Swift.Array&lt;Today.News&gt;, __ObjC.NSError&gt;) -&gt; ()) -&gt; () in Today.ModelDataManager.fetchNewsContent(news: Swift.Array&lt;Today.News&gt;) -&gt; BrightFutures.Future&lt;Swift.Array&lt;Today.News&gt;, __ObjC.NSError&gt;"
+                  moduleName = "Today"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/miltonleung/Developer/Today/Today/Services/ModelDataManager.swift"
+                  timestampString = "523930080.267689"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "57"
+                  endingLineNumber = "57"
+                  offsetFromSymbolStart = "327">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.17568"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "compressArticles(string:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.176167"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "74"
+            endingLineNumber = "74"
+            landmarkName = "fetchNewsContent(news:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.176688"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "70"
+            endingLineNumber = "70"
+            landmarkName = "fetchNewsContent(news:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Today/Services/ModelDataManager.swift"
+            timestampString = "523930080.177722"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "fetchNewsContent(news:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

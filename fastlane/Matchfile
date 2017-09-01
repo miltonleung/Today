@@ -1,0 +1,6 @@
+git_url "git@github.com:axiomzen/ios-code-signing.git"
+
+type "development" # The default type, can be: appstore, adhoc or development
+
+app_identifier "co.axiomzen.Today" 
+username "dev-admin@axiomzen.co" # Your Apple Developer Portal username

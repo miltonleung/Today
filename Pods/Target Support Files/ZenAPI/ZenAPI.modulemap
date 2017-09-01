@@ -1,0 +1,6 @@
+framework module ZenAPI {
+  umbrella header "ZenAPI-umbrella.h"
+
+  export *
+  module * { export * }
+}
